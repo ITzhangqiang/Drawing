@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T10:20:15.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="CJVk436voOyNxrYS9LIe" version="13.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T11:06:42.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="wNzl6QnV2yrO_ytVn2cx" version="13.7.6" type="github">
   <diagram id="_AeQUZpYTAxk4-d2Jtw5" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,9 @@
         </mxCell>
         <mxCell id="xW-zVNcLAnGvwsyYNrkf-32" value="索引优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="640" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="xW-zVNcLAnGvwsyYNrkf-34" value="query理解/纠错/改写/分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="684" width="170" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
