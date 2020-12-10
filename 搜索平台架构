@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T08:18:26.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="3yspnL7TS9XNt9dPDuh2" version="13.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-10T12:01:59.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="1FMpaYHfbTQ1XJA7n_-l" version="13.7.6" type="github">
   <diagram id="_AeQUZpYTAxk4-d2Jtw5" name="Page-1">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,17 +21,20 @@
         <mxCell id="xW-zVNcLAnGvwsyYNrkf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.224;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="xW-zVNcLAnGvwsyYNrkf-11" target="xW-zVNcLAnGvwsyYNrkf-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xW-zVNcLAnGvwsyYNrkf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xW-zVNcLAnGvwsyYNrkf-4" target="xW-zVNcLAnGvwsyYNrkf-20">
+        <mxCell id="xW-zVNcLAnGvwsyYNrkf-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xW-zVNcLAnGvwsyYNrkf-4" target="xW-zVNcLAnGvwsyYNrkf-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xW-zVNcLAnGvwsyYNrkf-4" value="存储层ES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="750" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="xW-zVNcLAnGvwsyYNrkf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.643;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xW-zVNcLAnGvwsyYNrkf-5" target="xW-zVNcLAnGvwsyYNrkf-20">
+        <mxCell id="xW-zVNcLAnGvwsyYNrkf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xW-zVNcLAnGvwsyYNrkf-20" target="xW-zVNcLAnGvwsyYNrkf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xW-zVNcLAnGvwsyYNrkf-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xW-zVNcLAnGvwsyYNrkf-5" target="xW-zVNcLAnGvwsyYNrkf-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xW-zVNcLAnGvwsyYNrkf-5" value="算法平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="840" width="260" height="70" as="geometry" />
+          <mxGeometry x="40" y="860" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xW-zVNcLAnGvwsyYNrkf-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xW-zVNcLAnGvwsyYNrkf-7" target="xW-zVNcLAnGvwsyYNrkf-4">
           <mxGeometry relative="1" as="geometry" />
@@ -49,7 +52,7 @@
           <mxGeometry x="40" y="440" width="580" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xW-zVNcLAnGvwsyYNrkf-20" value="召回&amp;nbsp; &amp;nbsp; &amp;nbsp;排序" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="780" width="260" height="70" as="geometry" />
+          <mxGeometry x="360" y="800" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xW-zVNcLAnGvwsyYNrkf-25" value="日志检索" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="585" width="70" height="35" as="geometry" />
@@ -69,7 +72,7 @@
         <mxCell id="xW-zVNcLAnGvwsyYNrkf-32" value="任务管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="595" width="70" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="xW-zVNcLAnGvwsyYNrkf-34" value="query理解/纠错/改写/分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="xW-zVNcLAnGvwsyYNrkf-34" value="QP服务&lt;br&gt;query理解/纠错/改写/分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="684" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="xW-zVNcLAnGvwsyYNrkf-36" value="数据加工" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
