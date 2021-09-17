@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-09-06T08:52:54.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.7.9" etag="shlK21dX_rmC-1rpyad2" type="github"><diagram id="1CV-zPg8OZUOcEx8DRyF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-17T02:16:27.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="DV_o4M_Q_6BqGj0TFvhQ" version="14.7.9" type="github">
+  <diagram id="1CV-zPg8OZUOcEx8DRyF" name="Page-1">
+    <mxGraphModel dx="1635" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-26" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="255" width="330" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-24" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="255" width="610" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="T1u1kUHnnFCDHJZD5gsO-1" target="T1u1kUHnnFCDHJZD5gsO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-29" value="1 day" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="T1u1kUHnnFCDHJZD5gsO-5">
+          <mxGeometry x="-0.218" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-1" value="hot phase" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="T1u1kUHnnFCDHJZD5gsO-2" target="T1u1kUHnnFCDHJZD5gsO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-30" value="7 day" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="T1u1kUHnnFCDHJZD5gsO-6">
+          <mxGeometry x="0.1768" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-2" value="warm phase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="T1u1kUHnnFCDHJZD5gsO-3" target="T1u1kUHnnFCDHJZD5gsO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-31" value="90 day" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="T1u1kUHnnFCDHJZD5gsO-7">
+          <mxGeometry x="-0.1244" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-3" value="cold phase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="750" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="T1u1kUHnnFCDHJZD5gsO-4" target="T1u1kUHnnFCDHJZD5gsO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-4" value="delete phase" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-9" value="index创建" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="150" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-12" value="index不再更新，进入warm phase&lt;br style=&quot;font-size: 17px;&quot;&gt;此阶段可以进行segment forcemerge" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-15" value="index 迁移到冷节点，进入cold phase&lt;br style=&quot;font-size: 17px;&quot;&gt;此阶段可以减少 index replica 数量" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="730" y="480" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-17" value="delete index&lt;br style=&quot;font-size: 17px;&quot;&gt;可以使用SLM备份" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="480" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-18" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=left;shape=mxgraph.azure.cloud;" vertex="1" parent="1">
+          <mxGeometry x="1076.1599999999999" y="265" width="107.69" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-20" value="backup" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="345" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-25" value="热节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;strokeWidth=20;fontSize=29;" vertex="1" parent="1">
+          <mxGeometry x="320" y="285" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-27" value="冷节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;strokeWidth=20;fontSize=29;" vertex="1" parent="1">
+          <mxGeometry x="825" y="285" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T1u1kUHnnFCDHJZD5gsO-28" value="&lt;font style=&quot;font-size: 14px&quot;&gt;HDFS or S3&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1083" y="303" width="90" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
