@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T06:39:30.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="hwHLLdK9LeilQ-DoqI_X" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T09:27:48.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="KFJ_JfH0ESxg7xb-Ro9D" version="20.2.7" type="github">
   <diagram id="M8vtPsKFR0XXFS2ImT0g" name="第 1 页">
     <mxGraphModel dx="2751" dy="2188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="70" y="320" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-8" value="nginx代理" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="330" y="110" width="120" height="80" as="geometry" />
+          <mxGeometry x="315" y="100" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;width=12.5;endSize=8.450000000000001;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -43,7 +43,7 @@
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-19" value="&lt;span style=&quot;&quot;&gt;producer.send_sync(msg)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="rTXD8GcTl2rMAPqI6IgE-18">
           <mxGeometry x="10" y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rTXD8GcTl2rMAPqI6IgE-20" value="定时任务，fb2discord_posts.py" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;align=center;" vertex="1" parent="1">
+        <mxCell id="rTXD8GcTl2rMAPqI6IgE-20" value="数据同步任务，&lt;br&gt;将fb数据发送到discord&lt;br&gt;fb2discord_posts.py" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;align=center;" vertex="1" parent="1">
           <mxGeometry x="590" y="220" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
@@ -124,10 +124,10 @@
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-43" value="https://discord.com/developers/docs/resources/webhook#execute-webhook" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="1030" y="-90" width="940" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rTXD8GcTl2rMAPqI6IgE-45" value="暂未搞清楚的地方" style="swimlane;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="rTXD8GcTl2rMAPqI6IgE-45" value="迁移步骤" style="swimlane;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="-370" y="810" width="1530" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="rTXD8GcTl2rMAPqI6IgE-47" value="1xxxxxxxx" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="rTXD8GcTl2rMAPqI6IgE-45">
+        <mxCell id="rTXD8GcTl2rMAPqI6IgE-47" value="1.左侧部分链路除了nginx，其他可以直接启动。&lt;br&gt;2.右侧链路可以都启动&lt;br&gt;&lt;br&gt;切换时，停掉老机器上的nginx，启动新机器上的nginx即可。&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="rTXD8GcTl2rMAPqI6IgE-45">
           <mxGeometry x="51" y="70" width="1430" height="200" as="geometry" />
         </mxCell>
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-50" value="web01" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
@@ -143,10 +143,10 @@
           <mxGeometry x="1564" y="460" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-56" value="对应topic" style="swimlane;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="515" width="520" height="185" as="geometry" />
+          <mxGeometry x="-500" y="460" width="520" height="240" as="geometry" />
         </mxCell>
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-57" value="&lt;div&gt;msg = Message(&#39;webhook_message&#39;)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;msg_feed = Message(&#39;webhook_feed&#39;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;msg_other = Message(&#39;webhook_other_message&#39;)&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="rTXD8GcTl2rMAPqI6IgE-56">
-          <mxGeometry x="10" y="45" width="510" height="130" as="geometry" />
+          <mxGeometry x="20" y="60" width="510" height="130" as="geometry" />
         </mxCell>
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-58" value="facebook账号订阅内容，有发帖，发消息，触发回调" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="321" y="-170" width="576" height="60" as="geometry" />
