@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T06:18:27.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="uavaymo28gAjLtgdHIPQ" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T06:20:19.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="3JHUrGaNEezAf71gSF3z" version="20.2.7" type="github">
   <diagram id="M8vtPsKFR0XXFS2ImT0g" name="第 1 页">
     <mxGraphModel dx="2751" dy="2188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,7 +127,7 @@
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-45" value="迁移步骤" style="swimlane;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="-370" y="810" width="1530" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="rTXD8GcTl2rMAPqI6IgE-47" value="1.左侧部分链路除了nginx，其他可以直接启动。&lt;br&gt;2.右侧链路可以都启动&lt;br&gt;&lt;br&gt;切换时，停掉老机器上的nginx，启动新机器上的nginx即可。&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="rTXD8GcTl2rMAPqI6IgE-45">
+        <mxCell id="rTXD8GcTl2rMAPqI6IgE-47" value="1.启动左边链路组件&lt;br&gt;2.启动右边链路组件&lt;br&gt;&lt;br&gt;切换时，域名指向新的ip，数据自动流入新设备" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="rTXD8GcTl2rMAPqI6IgE-45">
           <mxGeometry x="51" y="70" width="1430" height="200" as="geometry" />
         </mxCell>
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-50" value="web01" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
