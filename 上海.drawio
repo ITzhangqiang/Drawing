@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T12:21:02.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="BxYlP2fKGVQNEOskqdBe" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-09T06:18:27.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="uavaymo28gAjLtgdHIPQ" version="20.2.7" type="github">
   <diagram id="M8vtPsKFR0XXFS2ImT0g" name="第 1 页">
     <mxGraphModel dx="2751" dy="2188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,8 +139,8 @@
             <mxPoint x="1559.5" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rTXD8GcTl2rMAPqI6IgE-52" value="写redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="1564" y="460" width="90" height="40" as="geometry" />
+        <mxCell id="rTXD8GcTl2rMAPqI6IgE-52" value="调用194上的脚本写redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="460" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-56" value="对应topic" style="swimlane;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="-500" y="460" width="520" height="240" as="geometry" />
@@ -150,6 +150,9 @@
         </mxCell>
         <mxCell id="rTXD8GcTl2rMAPqI6IgE-58" value="facebook账号订阅内容，有发帖，发消息，触发回调" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="321" y="-170" width="576" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTXD8GcTl2rMAPqI6IgE-60" value="/data/workspace/crawler/discord_refresh.sh" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="500" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
