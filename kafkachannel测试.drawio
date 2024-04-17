@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T09:05:45.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.0.2" etag="q30hBSbaZuxIIYCNt09z" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-17T11:34:00.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="jDYES70mPct2NrSOgDd3" version="24.0.2" type="github">
   <diagram name="第 1 页" id="7uZExEkXiBQ7jMDRv1GM">
-    <mxGraphModel>
+    <mxGraphModel dx="1136" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pHUdqWg6jOGEU-mfkc_0-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-6" value="前端多个flume采集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHUdqWg6jOGEU-mfkc_0-7" target="pHUdqWg6jOGEU-mfkc_0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-7" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="414" y="250" width="60" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pHUdqWg6jOGEU-mfkc_0-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-8" value="avro source" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-10" value="8个kafkasink" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-12" value="file channel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="394" y="315" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-14" value="增强型SSD云盘" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="389" y="360" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pHUdqWg6jOGEU-mfkc_0-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-16" value="前端多个flume采集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-18" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="414" y="390" width="60" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pHUdqWg6jOGEU-mfkc_0-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-20" value="avro source" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pHUdqWg6jOGEU-mfkc_0-22" value="kafka channel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="384" y="455" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
